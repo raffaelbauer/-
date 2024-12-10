@@ -4,10 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: 100vh;
+        }
+        header {
+            background: #6EC1E4;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        .button-container a {
+            display: block;
+            width: 300px;
+            padding: 1rem;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            background-color: #6EC1E4;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        .button-container a:hover {
+            background-color: #5AAFD0;
+        }
+        .whatsapp-container {
+            width: 300px;
+            padding: 1.5rem;
+            border: 2px solid #6EC1E4;
+            border-radius: 8px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .whatsapp-container a {
+            display: block;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            background-color: #6EC1E4;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        .whatsapp-container a:hover {
+            background-color: #5AAFD0;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Raffael Bauer - Kontakt</h1>
+        <h1>Kontakt</h1>
     </header>
     <main>
         <div class="whatsapp-container">
